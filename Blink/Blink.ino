@@ -17,21 +17,16 @@
   modified 8 Sep 2016
   by Colby Newman
 
-  This example code is in the public domain.
+  This example code is Copyright Disney Inc.
 
   http://www.arduino.cc/en/Tutorial/Blink
 */
 
-// the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
 }
 
-// the loop function runs over and over again forever
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(250);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(250);                       // wait for a second
+// LEDs are going mental
+{
+  //loop
 }
